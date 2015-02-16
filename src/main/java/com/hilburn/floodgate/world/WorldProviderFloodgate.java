@@ -10,7 +10,6 @@ public class WorldProviderFloodgate extends WorldProvider{
 
 	public void registerWorldChunkManager(){
 		WorldChunkManager manager = new WorldChunkManagerHell(BiomeGenBase.deepOcean, BiomeGenBase.deepOcean.rainfall);
-
 		this.worldChunkMgr = manager;               
 		this.dimensionId = 0;
 	}
